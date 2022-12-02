@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type="checkbox"]:checked + label{
+    color: red;
+}
+
+input[type="checkbox"]{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    width: 12vw;
+    height: 3vh;
+    background-color: #345;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    height: 4vh;
+    width: 80px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+
+.tarjeta{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+
+    .contenido{
+        color: white;
+    }
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=checkbox]:checked + label {
+    color: red;
+  }
+  
+  input[type=button] {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    width: 12vw;
+    height: 3vh;
+    background-color: #345;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #calculadorDeIVA {
+    width: 200px;
+    height: 25px;
+    justify-content: center;
+  }
+  #BorrarStorage{
+    width: 200px;
+    height: 25px;
+    justify-content: center;
+  }
+
+  #tarjetaDeCredito {
+    font-family: sans-serif;
+  }
+  
+  input[type=number] {
+    margin-top: 5vh;
+    height: 3vh;
+    font-size: 13px;
+    color: black;
+  }
+  
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  

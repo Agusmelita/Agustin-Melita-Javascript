@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="divTarjetas"></div>
+
+    <div>
+        <input type="button" id="calculadorDeIVA" value="Calcular productos + IVA" 
+        onclick="sumarProductosYAgregarIVA()">
+    </div>
+
+    <div>
+        <input type="button" id="BorrarStorage" value="Borrar local storage" 
+        onclick="eliminarLocalStorage()">
+    </div>
+
+    <form>
+        <label for="tarjetaDeCredito">Numero de Tarjeta</label>
+        <input type="number" id="tarjetaDeCredito">
+        <label for="tarjetaDeCredito">CVC</label>
+        <input type="number" id="cvc">
+        <input type="button" value="Pagar" onclick="Pagar()"></input>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
